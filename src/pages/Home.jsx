@@ -16,8 +16,11 @@ const Home = () => {
         <h1 style={{ fontSize: '3rem', marginBottom: '1rem', color: 'var(--color-clay)' }}>
           Hey Nemo,
         </h1>
-        <p style={{ fontSize: '1.2rem', color: '#666', marginBottom: '2rem', maxWidth: '300px' }}>
-          Welcome to your dedicated space. A little journey, just for us.
+        <p style={{ fontSize: '1.2rem', color: '#666', marginBottom: '1rem', maxWidth: '400px' }}>
+          I know I'm a little late with this, but I promise to always learn, improve, and make it up to you.
+        </p>
+        <p style={{ fontSize: '1rem', color: '#888', marginBottom: '2rem', maxWidth: '300px', fontStyle: 'italic' }}>
+          Welcome to your dedicated space. A journey just for us.
         </p>
       </motion.div>
 

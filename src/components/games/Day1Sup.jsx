@@ -127,26 +127,32 @@ const Day1Sup = () => {
                     <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        style={{ textAlign: 'center', padding: '20px', background: 'rgba(255,255,255,0.8)', borderRadius: 'var(--radius-md)' }}
+                        style={{ textAlign: 'center', padding: '20px', background: 'rgba(255,255,255,0.9)', borderRadius: 'var(--radius-md)' }}
                     >
-                        <p style={{ fontStyle: 'italic', marginBottom: '10px' }}>
-                            "I still remember that simple eyebrow raise. No warmth, just 'Sup'. Who knew three years later we'd be inseparable?"
+                        <p style={{ fontStyle: 'italic', marginBottom: '15px', lineHeight: '1.6' }}>
+                            "I still remember that simple eyebrow raise... just a 'Sup?' <br />
+                            But in that moment, my life changed forever. Who knew that this girl would become the center of my universe?
+                            <br /><br />
+                            You are my favorite person, my Nemo, my home."
                         </p>
                         <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '20px' }}>
                             - Krish
                         </p>
+                        <p style={{ fontWeight: 'bold', color: 'var(--color-clay)', marginBottom: '10px' }}>
+                            Come back tomorrow for another surprise. 🌹
+                        </p>
                         <button
-                            onClick={() => window.location.hash = '#/day/2'}
+                            disabled
                             style={{
                                 padding: '12px 24px',
-                                background: 'var(--color-eucalyptus)',
-                                color: 'var(--color-ivory)',
+                                background: '#ccc',
+                                color: 'white',
                                 borderRadius: 'var(--radius-sm)',
                                 fontWeight: 'bold',
-                                boxShadow: 'var(--shadow-soft)'
+                                cursor: 'default'
                             }}
                         >
-                            Continue Journey →
+                            See you tomorrow!
                         </button>
                     </motion.div>
                 )}
